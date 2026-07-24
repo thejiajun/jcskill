@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rename Codex Sessions"
+  short_description: "Rename one or up to 30 recent Codex sessions"
+  default_prompt: "Use $rename-codex-session to optimize the titles of my recent Codex sessions based on their latest substantive work."

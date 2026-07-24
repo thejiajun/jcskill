@@ -1,0 +1,35 @@
+{
+  "name": "jcskill",
+  "version": "0.1.0",
+  "description": "A public collection of Jiajun Chen's reusable Codex skills.",
+  "author": {
+    "name": "Jiajun Chen",
+    "url": "https://github.com/thejiajun"
+  },
+  "homepage": "https://github.com/thejiajun/jcskill",
+  "repository": "https://github.com/thejiajun/jcskill",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "agent-skills",
+    "productivity",
+    "session-management"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "JC Skill",
+    "shortDescription": "Reusable Codex workflows by Jiajun Chen.",
+    "longDescription": "JC Skill is a public collection of focused Codex workflows. The initial skill safely renames one or up to 30 recent Codex tasks from their substantive work.",
+    "developerName": "Jiajun Chen",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/thejiajun/jcskill",
+    "defaultPrompt": [
+      "Optimize the titles of my recent Codex tasks.",
+      "Rename this Codex task from its latest substantive work."
+    ]
+  }
+}
