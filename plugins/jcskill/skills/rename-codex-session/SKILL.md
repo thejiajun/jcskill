@@ -28,7 +28,7 @@ Use one simple format:
 
 1. Prefix `🔴` only when the session or current weekly Todo explicitly marks the work P0, P1, High, Urgent, or as an unfinished priority. Never infer priority from activity alone. In batch mode, preserve an existing `🔴` unless the session clearly shows the priority is completed or superseded; do not perform a separate Todo lookup unless the user asks for a priority refresh.
 2. Prefix `👤` for a personal project and `🏢` for a company project. Determine ownership from known account or organization, repo, working directory, and session context. Preserve an existing ownership marker when new evidence is inconclusive; otherwise skip ambiguous sessions.
-3. Choose `Label` as the shortest familiar product, repo, model, or project name. Prefer a stable acronym the user already understands, such as `CD` for Campaign Dashboard, `PIH`, `ITL`, `MCP`, or `API`. Never invent an acronym.
+3. Choose `Label` as the shortest familiar product, repo, model, or project name. Prefer a stable acronym already established in the session. Never invent an acronym.
 4. Write `Summary` as a short noun phrase describing the outcome or active task.
 5. Keep the title in the user’s language, specific, free of sensitive information, and at most 60 characters when practical.
 
@@ -45,8 +45,8 @@ Ask only when two unrelated topics are equally important or ownership is genuine
 
 Examples:
 
-- `🔴 👤 PIH: 小红书收藏入库检查`
-- `🔴 🏢 ITL: 内容管道 Worktree 核对`
-- `🔴 🏢 Seedance: 2.5 对比评审与复测`
-- `🏢 CD: 投稿流程验收`
-- `🏢 Pika MCP: Seed Audio 上线验证`
+- `🔴 👤 Personal App: 数据导入检查`
+- `🔴 🏢 Web Platform: 内容管道核对`
+- `🔴 🏢 Video Model: 版本对比评审与复测`
+- `🏢 Campaign Tool: 投稿流程验收`
+- `🏢 API Integration: 音频功能上线验证`
